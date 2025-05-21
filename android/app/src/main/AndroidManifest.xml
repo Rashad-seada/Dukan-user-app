@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dukan.dukan_user_app">
+    package="com.iraq.dukan_user_app">
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
          In most cases you can leave this as-is, but you if you want to provide
@@ -40,7 +40,7 @@
 
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.iraq.dukan_user_app.MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -87,7 +87,7 @@
         <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
 
         <activity
-            android:name="com.dukan.dukan_user_app.sign_in_with_apple.SignInWithAppleCallback"
+            android:name="com.iraq.dukan_user_app.sign_in_with_apple.SignInWithAppleCallback"
             android:exported="true"
             >
             <intent-filter>
